@@ -1,3 +1,7 @@
 body {
   background-color: lightgrey
 }
+
+.parallax-container {
+      height: 300px;
+    }
