@@ -12,7 +12,7 @@
 <!-- Nav Bar -->
 	<nav>
     <div class="nav-wrapper black">
-      <a href="/" class="brand-logo">Matt</a>
+      <a id="namelogo" href="/" class="brand-logo">Matt Carver</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li><a href="#">About</a></li>
 				<li><a href="#">Projects</a></li>
@@ -28,24 +28,29 @@
 			<div class="container">
 				<div class="row">
 					<div class="col s12 white-text">
-						<h2 class="grey-text grey-text darken-3">Matt's Portfolio</h2>
-						<p>Hi, Here's some info about me!  Matt Matt Matt</p>
+						<h2 class="white-text">Full Stack Web Developer</h2>
 						<a class="waves-effect waves-light btn-small grey darken-2">Get Started</a>
 					</div>
 				</div>
 			</div>
 			<!-- This is the picture. -->
 			<div class="parallax">
-				<img src="https://picsum.photos/1200/1200">
+				<img class="responsive-img" src="img/code3.jpg">
 			</div>
 	</div>
-<!-- First picture with overlay end. -->
+<!-- First picture with overlay end.
 
-<!-- This is a non-picture section. -->
+<!- This is a non-picture section. -->
   <div class="section white">
     <div class="row container">
-      <h2 class="header">About</h2>
-      <p class="grey-text text-darken-3 lighten-3">Hi! I'm Matt, welcome to my portfolio.  Here, I'll tell you some things about me that you will find interesting and want to hire me awesomely.</p>
+			<div class="col s12 m4 l4">
+				<img class="responsive-img" src="" alt="IMG HERE">
+			</div>
+			<div class="col s12 m8 l8">
+				<h4 class="header">Hi! I'm Matt Carver, a Full Stack Web Developer located in Seattle, WA.</h4>
+				<hr>
+				<p class="grey-text text-darken-3 lighten-3">Welcome to my site!  If you are building your online presence, or looking for an additional developer on your team, let's connect and discuss options.  I'm versed in front and back-end development, and am always interested to learn.</p><p>Please see my other links for additional information.</p>
+			</div>
     </div>
   </div>
 <!-- Non-picture section end. -->
@@ -56,14 +61,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12 white-text">
-					<h2 class="grey-text grey-text darken-3">Another area for text..overlaying a photo.</h2>
-					<p>Here's more info</p>
+					<h2 class="white-text"></h2>
+					<p></p>
 				</div>
 			</div>
 		</div>
 <!-- This is the picture. -->
     <div class="parallax">
-			<img src="https://picsum.photos/1201/1200">
+			<img class="responsive-img" src="img/code2.jpg">
 		</div>
   </div>
 <!-- Second picture with overlay end. -->
@@ -71,10 +76,71 @@
 <!-- This is a non-picture section. -->
 	<div class="section white">
     <div class="row container">
+      <h2 class="header">Skills</h2>
+			<div class="col s12 m3 l3">
+				<h6 class="grey-text text-darken-3 lighten-3 h6font">Planning and Design</h6>
+				<p>Trello</p>
+				<p>Smartsheet</p>
+				<p>Balsamiq</p>
+				<p>AdobeXD</p>
+			</div>
+			<div class="col s12 m3 l3">
+				<h6 class="grey-text text-darken-3 lighten-3 h6font">Front End</h6>
+				<p>HTML</p>
+				<p>CSS/SCSS</p>
+				<p>JavaScript</p>
+				<p>jQuery</p>
+				<p>React.js</p>
+				<p>Bootstrap</p>
+				<p>Materialize</p>
+			</div>
+			<div class="col s12 m3 l3">
+				<h6 class="grey-text text-darken-3 lighten-3 h6font">Back End</h6>
+				<p>Node.js</p>
+				<p>Express.js</p>
+				<p>PostgreSQL</p>
+				<p>MongoDB</p>
+				<p>Python</p>
+			</div>
+			<div class="col s12 m3 l3">
+				<h6 class="grey-text text-darken-3 lighten-3 h6font">Version Control</h6>
+				<p>Git/Github</p>
+			</div>
+			<div class="col s12 m3 l3">
+				<h6 class="grey-text text-darken-3 lighten-3 h6font">Test and Deployment</h6>
+				<p>Mocha</p>
+				<p>Chai</p>
+				<p>Heroku</p>
+			</div>
+    </div>
+  </div>
+<!-- Non-picture section end. -->
+
+<!-- Third picture with overlay. -->
+	<div class="parallax-container center valign-wrapper">
+		<!-- This is the picture overlay information. -->
+		<div class="container">
+			<div class="row">
+				<div class="col s12 white-text">
+					<h2 class="white-text"></h2>
+					<p></p>
+				</div>
+			</div>
+		</div>
+<!-- This is the picture. -->
+    <div class="parallax">
+			<img class="responsive-img" src="img/code1.jpg">
+		</div>
+  </div>
+<!-- Third picture with overlay end. -->
+
+<!-- This is a non-picture section. -->
+	<div class="section white">
+    <div class="row container">
       <h2 class="header">Projects</h2>
 
 				<div class="row">
-			    <div class="col s12 m6">
+			    <div class="col s12 m4 l4">
 			      <div class="card hoverable">
 			        <div class="card-image">
 			          <img src="img/proj1.png">
@@ -90,7 +156,23 @@
 			      </div>
 			  	</div>
 
-			    <div class="col s12 m6">
+					<div class="col s12 m4 l4">
+			      <div class="card hoverable">
+			        <div class="card-image">
+			          <img src="images/sample-1.jpg">
+			          <span class="card-title">Card Title</span>
+			        </div>
+			        <div class="card-content">
+			          <p>I am a very simple card. I am good at containing small bits of information.
+			          I am convenient because I require little markup to use effectively.</p>
+			        </div>
+			        <div class="card-action">
+			          <a href="#">This is a link</a>
+			        </div>
+			      </div>
+			    </div>
+
+			    <div class="col s12 m4 l4">
 			      <div class="card hoverable">
 			        <div class="card-image">
 			          <img src="img/TourApp.png">
@@ -107,7 +189,7 @@
 			  </div>
 
 				<div class="row">
-			    <div class="col s12 m6">
+			    <div class="col s12 m4 l4">
 			      <div class="card hoverable">
 			        <div class="card-image">
 			          <img src="images/sample-1.jpg">
@@ -123,7 +205,23 @@
 			      </div>
 			    </div>
 
-			    <div class="col s12 m6">
+					<div class="col s12 m4 l4">
+			      <div class="card hoverable">
+			        <div class="card-image">
+			          <img src="images/sample-1.jpg">
+			          <span class="card-title">Card Title</span>
+			        </div>
+			        <div class="card-content">
+			          <p>I am a very simple card. I am good at containing small bits of information.
+			          I am convenient because I require little markup to use effectively.</p>
+			        </div>
+			        <div class="card-action">
+			          <a href="#">This is a link</a>
+			        </div>
+			      </div>
+			    </div>
+
+			    <div class="col s12 m4 l4">
 			      <div class="card hoverable">
 			        <div class="card-image">
 			          <img src="images/sample-1.jpg">
@@ -143,70 +241,37 @@
   </div>
 <!-- Non-picture section end. -->
 
-<!-- Third picture with overlay. -->
-	<div class="parallax-container center valign-wrapper">
-		<!-- This is the picture overlay information. -->
-		<div class="container">
-			<div class="row">
-				<div class="col s12 white-text">
-					<h2 class="grey-text grey-text darken-3">Anther area for text...</h2>
-					<p>More and more info for something...</p>
-				</div>
-			</div>
-		</div>
-<!-- This is the picture. -->
-    <div class="parallax">
-			<img src="https://picsum.photos/1201/1201">
-		</div>
-  </div>
-<!-- Third picture with overlay end. -->
-
-<!-- This is a non-picture section. -->
-	<div class="section white">
-    <div class="row container">
-      <h2 class="header">Contact</h2>
-      <p class="grey-text text-darken-3 lighten-3">Here will be links to github, repl.it, my website at somepoint, my email, and linkedin pages.</p>
-    </div>
-  </div>
-<!-- Non-picture section end. -->
-
 <!-- Footer. -->
 <footer class="page-footer black">
-				 <div class="container">
-					 <div class="row">
-						 <div class="col l12 s12">
-							 <p class="grey-text text-lighten-4">Thank you for visiting!</p>
-						 </div>
-						 <div class="row">
+ 	<div class="container">
+	 	<div class="row">
+		 	<div class="col l12 s12">
+			 	<h6 class="grey-text text-lighten-4 h6font">Reach out, let's connect!</h6>
+		 	</div>
+		 	<div class="row">
+			 	<div class="col s4">
+				 	<a class="grey-text text-lighten-3" href="https://github.com/carverme">
+						<i id="contactlogo" class="fab fa-github-square"></i>
+						carverme
+				 	</a>
+				</div>
+				<div class="col s4">
+				 	<a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/mattecarver">
+					 	<i id="contactlogo" class="fab fa-linkedin"></i>
+						mattecarver
+				 	</a>
+				</div>
+				<div class="col s4">
+				 	<a class="grey-text text-lighten-3" href="#!">
+					 	<i id="contactlogo" class="fas fa-envelope-square"></i>
+						mattcarver.wd@gmail.com
+				 	</a>
+				</div>
+			</div>
+	 	</div>
+	</div>
 
-						 <div class="col l12 s12">
-								 <a class="grey-text text-lighten-3" href="https://github.com/carverme">
-										<i id="ilogo" class="fab fa-github-square"></i>
-										carverme
-								 </a>
-								 <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/mattecarver">
-									 	<i id="ilogo" class="fab fa-linkedin"></i>
-										mattecarver
-								 </a>
-								 <a class="grey-text text-lighten-3" href="#!">
-									 	<i id="ilogo" class="fas fa-envelope-square"></i>
-										mattcarver.wd@gmail.com
-								 </a>
-								 <a class="grey-text text-lighten-3" href="#!">
-
-								 </a>
-						 </div>
-					 </div>
-
-					 </div>
-				 </div>
-				 <div class="footer-copyright">
-					 <div class="container">
-					 Matt Carver ©2018
-					 <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
-					 </div>
-				 </div>
-			 </footer>
+</footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>

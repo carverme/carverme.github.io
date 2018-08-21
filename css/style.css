@@ -2,11 +2,19 @@ body {
   background-color: lightgrey
 }
 
-.parallax-container {
-      height: 1000px;
-    }
+.h6font {
+  font-weight: bold;
+}
 
-#ilogo {
-  width: 50px;
-  height: 50px;
+.parallax-container {
+  height: 500px;
+}
+
+#namelogo {
+  margin-left: .25em;
+}
+
+#contactlogo {
+  width: 2.5em;
+  height: 2.5em;
 }
