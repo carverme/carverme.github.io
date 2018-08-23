@@ -14,22 +14,22 @@
     <div class="nav-wrapper black">
       <a id="namelogo" href="/" class="brand-logo">Matt Carver</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li><a href="#">About</a></li>
-				<li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li><a href="#" class="btn-small grey darken-2">Resume</a></li>
       </ul>
     </div>
 	</nav>
 
 <!-- First Picture with overlay. -->
-	<div class="parallax-container center valign-wrapper">
+	<div id="parallax-container" class="parallax-container center valign-wrapper">
 			<!-- This is picture overlay information. -->
 			<div class="container">
 				<div class="row">
-					<div class="col s12 white-text">
+					<div id="about" class="col s12 white-text scrollspy">
 						<h2 class="white-text">Full Stack Web Developer</h2>
-						<a class="waves-effect waves-light btn-small grey darken-2">Get Started</a>
+						<a href="#about" class="waves-effect waves-light btn-small grey darken-2">Get Started</a>
 					</div>
 				</div>
 			</div>
@@ -43,7 +43,7 @@
 <!- This is a non-picture section. -->
   <div class="section white">
     <div class="row container">
-			<div class="col s12 m4 l4">
+			<div id="about" class="col s12 m4 l4 scrollspy">
 				<img class="responsive-img" src="" alt="IMG HERE">
 			</div>
 			<div class="col s12 m8 l8">
@@ -52,29 +52,29 @@
 				<p class="grey-text text-darken-3 lighten-3">Welcome to my site!  If you are building your online presence, or looking for an additional developer on your team, let's connect and discuss options.  I'm versed in front and back-end development, and am always interested to learn.</p><p>Please see my other links for additional information.</p>
 			</div>
     </div>
-  </div>
+  <!-- </div> -->
 <!-- Non-picture section end. -->
 
 <!-- Second picture with overlay. -->
-  <div class="parallax-container center valign-wrapper">
+  <!-- <div class="parallax-container center valign-wrapper"> -->
 		<!-- This is picture overlay information. -->
-		<div class="container">
+		<!-- <div class="container">
 			<div class="row">
 				<div class="col s12 white-text">
 					<h2 class="white-text"></h2>
 					<p></p>
 				</div>
 			</div>
-		</div>
+		</div> -->
 <!-- This is the picture. -->
-    <div class="parallax">
+    <!-- <div class="parallax">
 			<img class="responsive-img" src="img/code2.jpg">
 		</div>
-  </div>
+  </div> -->
 <!-- Second picture with overlay end. -->
 
 <!-- This is a non-picture section. -->
-	<div class="section white">
+	<!-- <div class="section white"> -->
     <div class="row container">
       <h2 class="header">Skills</h2>
 			<div class="col s12 m3 l3">
@@ -138,22 +138,21 @@
 <!-- This is a non-picture section. -->
 	<div class="section white">
     <div class="row container">
-      <h2 class="header">Projects</h2>
+      <h2 id="projects" class="header scrollspy">Projects</h2>
 
 				<div class="row">
 			    <div class="col s12 m4 l4">
 			      <div class="card hoverable">
 			        <div class="card-image">
 			          <img src="img/proj1.png">
-			          <span class="card-title white-text">PONG
-								^2</span>
 			        </div>
 			        <div class="card-content">
+								<span class="card-title grey-text text-darken-3 lighten-3">PONG^2</span>
 			          <p>PONG^2 was a recreation of an Atari classic, PONG, primarily written in JavaScript and HTML5 Canvas.</p>
 			        </div>
 			        <div class="card-action">
-			          <a href="https://carverme.github.io/gameProject/">PONG^2</a>
-								<a href="#">View on Github</a>
+			          <a class="grey-text text-darken-3 lighten-3" href="https://carverme.github.io/gameProject/">Go!</a>
+								<a class="grey-text text-darken-3 lighten-3 right" href="https://github.com/carverme/gameProject">View on Github</a>
 			        </div>
 			      </div>
 			  	</div>
@@ -161,15 +160,16 @@
 					<div class="col s12 m4 l4">
 			      <div class="card hoverable">
 			        <div class="card-image">
-			          <img src="images/sample-1.jpg">
-			          <span class="card-title">Card Title</span>
+			          <img src="img/Gitman-RepoTracker.png">
 			        </div>
 			        <div class="card-content">
-			          <p>I am a very simple card. I am good at containing small bits of information.
-			          I am convenient because I require little markup to use effectively.</p>
+								<span class="card-title grey-text text-darken-3 lighten-3">Gitman-RepoTracker</span>
+			          <p>RepoTracker, an app to log time for individual work on individual repositories.  RepoTracker was written with NodeJS, Express, EJS, PostgreSQL, JavaScript, Materialize, and Passport using Github oauth.</p>
 			        </div>
 			        <div class="card-action">
-			          <a href="#">This is a link</a>
+			          <a class="grey-text text-darken-3 lighten-3" href="https://gitman.herokuapp.com/">Go!</a>
+								<a class="grey-text text-darken-3 lighten-3 right" href="https://github.com/carverme/project_four2">View on Github</a>
+
 			        </div>
 			      </div>
 			    </div>
@@ -178,14 +178,14 @@
 			      <div class="card hoverable">
 			        <div class="card-image">
 			          <img src="img/TourApp.png">
-			          <span class="card-title">TourApp</span>
 			        </div>
 			        <div class="card-content">
-			          <p>TourApp, an app to create tours on your own, and share or sell to friends or the public.  Tour app, was </p>
+								<span class="card-title grey-text text-darken-3 lighten-3">TourApp</span>
+			          <p>TourApp, an app to create tours on your own, and share or sell to friends or the public.  Tour app, was written with Passport(for auth), ExpressJS, NodeJS, EJS, Geocoder, and tested with Mocha and Chai.</p>
 			        </div>
 			        <div class="card-action">
-			          <a href="https://tourappmc.herokuapp.com/">TourApp</a>
-								<a href="#">View on Github</a>
+			          <a class="grey-text text-darken-3 lighten-3" href="https://tourappmc.herokuapp.com/">Go!</a>
+								<a class="grey-text text-darken-3 lighten-3 right" href="https://github.com/carverme/projecttwo">View on Github</a>
 			        </div>
 			      </div>
 			    </div>
@@ -196,14 +196,14 @@
 			      <div class="card hoverable">
 			        <div class="card-image">
 			          <img src="img/PunchCard.png">
-			          <span class="card-title">Punch Card</span>
 			        </div>
 			        <div class="card-content">
-			          <p>Punch Card, an app to track punch cards from your favorite restaurants.  This app is written using React, JavaScript, Material-UI, MongoDB, ExpressJS, Axios, NodeJS, and is deployed on Heroku.</p>
+								<span class="card-title grey-text text-darken-3 lighten-3">Punch Card</span>
+			          <p>Punch Card, an app to track punch cards from your favorite restaurants.  This app is written using React, JavaScript, Material-UI, MongoDB, Express, Axios, NodeJS, and is deployed on Heroku.</p>
 			        </div>
 			        <div class="card-action">
-			          <a href="https://punch-card.herokuapp.com/">Punch Card</a>
-								<a href="#">View on Github</a>
+			          <a class="grey-text text-darken-3 lighten-3" href="https://punch-card.herokuapp.com/">Go!</a>
+								<a class="grey-text text-darken-3 lighten-3 right" href="https://github.com/carverme/punch-card">View on Github</a>
 			        </div>
 			      </div>
 			    </div>
@@ -211,34 +211,34 @@
 					<div class="col s12 m4 l4">
 			      <div class="card hoverable">
 			        <div class="card-image">
-			          <img src="images/sample-1.jpg">
-			          <span class="card-title">Card Title</span>
+			          <img src="img/Nedo.png">
 			        </div>
 			        <div class="card-content">
-			          <p>I am a very simple card. I am good at containing small bits of information.
-			          I am convenient because I require little markup to use effectively.</p>
+								<span class="card-title grey-text text-darken-3 lighten-3">Nedo</span>
+			          <p>Nedo, an app working for good, helps users donate food or request a food donation.  This app written with Express, EJS, Node.js, Materialize, and Lodash.</p>
 			        </div>
 			        <div class="card-action">
-			          <a href="#">This is a link</a>
+								<a class="grey-text text-darken-3 lighten-3" href="https://github.com/carverme/ga_hackathon">View on Github</a>
 			        </div>
 			      </div>
 			    </div>
 
-			    <div class="col s12 m4 l4">
+			    <!-- <div class="col s12 m4 l4">
 			      <div class="card hoverable">
 			        <div class="card-image">
 			          <img src="images/sample-1.jpg">
-			          <span class="card-title">Card Title</span>
 			        </div>
 			        <div class="card-content">
+								<span class="card-title grey-text text-darken-3 lighten-3">Card Title</span>
 			          <p>I am a very simple card. I am good at containing small bits of information.
 			          I am convenient because I require little markup to use effectively.</p>
 			        </div>
 			        <div class="card-action">
-			          <a href="#">This is a link</a>
+			          <a class="grey-text text-darken-3 lighten-3" href="#">Go!</a>
+								<a class="grey-text text-darken-3 lighten-3 right" href="#">View on Github</a>
 			        </div>
 			      </div>
-			    </div>
+			    </div> -->
 			  </div>
     </div>
   </div>
@@ -248,7 +248,7 @@
 <footer class="page-footer black">
  	<div class="container">
 	 	<div class="row">
-		 	<div class="col l12 s12">
+		 	<div id="contact" class="col l12 s12 scrollspy">
 			 	<h6 class="grey-text text-lighten-4 h6font">Reach out, let's connect!</h6>
 		 	</div>
 		 	<div class="row">

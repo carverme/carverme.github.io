@@ -6,8 +6,8 @@ body {
   font-weight: bold;
 }
 
-.parallax-container {
-  height: 500px;
+#parallax-container {
+  height: 700px;
 }
 
 #namelogo {
