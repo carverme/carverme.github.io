@@ -6,18 +6,19 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-
+	<link href="https://fonts.googleapis.com/css?family=Archivo|Archivo+Black|Archivo+Narrow" rel="stylesheet">
 </head>
+
 <body>
 <!-- Nav Bar -->
-	<nav id="navbar">
+	<nav id="nav">
     <div class="nav-wrapper black">
-      <a id="namelogo" href="/" class="brand-logo">Matt Carver</a>
+      <a id="namelogo" href="#" class="brand-logo">MC</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li><a href="#about">About</a></li>
 				<li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="#" class="btn-small grey darken-2">Resume</a></li>
+        <li><a href="img/resumepic.png" class="btn-small grey darken-2">Resume</a></li>
       </ul>
     </div>
 	</nav>
@@ -28,7 +29,9 @@
 			<div class="container">
 				<div class="row">
 					<div id="about" class="col s12 white-text scrollspy">
-						<h2 class="white-text">Full Stack Web Developer</h2>
+						<h1 class="white-text">Matt Carver</h1>
+						<h5 class="white-text">Full Stack Web Developer</h5>
+						<br>
 						<a href="#about" class="waves-effect waves-light btn-small grey darken-2">Get Started</a>
 					</div>
 				</div>
@@ -49,7 +52,7 @@
 			<div class="col s12 m8 l8">
 				<h4 class="header">Hi! I'm Matt Carver, a Full Stack Web Developer located in Seattle, WA.</h4>
 				<hr>
-				<p class="grey-text text-darken-3 lighten-3">Welcome to my site!  If you are building your online presence, or looking for an additional developer on your team, let's connect and discuss options.  I'm versed in front and back-end development, and am always interested to learn.</p><p>Please see my other links for additional information.</p>
+				<p class="grey-text text-darken-3 lighten-3">Welcome to my site!  If you are building your online presence, or looking for an additional developer on your team, let's connect and discuss options.  I'm versed in front and back-end development, and am always interested to learn.</p><p>When I'm not coding, I love hiking and being in the PNW outdoors, riding my motorcycle, or hanging out with my dog.</p><p>Please see my other links for additional information.</p>
 			</div>
     </div>
   <!-- </div> -->
@@ -118,7 +121,7 @@
 <!-- Non-picture section end. -->
 
 <!-- Third picture with overlay. -->
-	<div class="parallax-container center valign-wrapper">
+	<div id="parallax-container2" class="parallax-container center valign-wrapper">
 		<!-- This is the picture overlay information. -->
 		<div class="container">
 			<div class="row">
@@ -130,7 +133,7 @@
 		</div>
 <!-- This is the picture. -->
     <div class="parallax">
-			<img class="responsive-img" src="img/code1.jpg">
+			<img id="picadjust" class="responsive-img" src="img/code1.jpg">
 		</div>
   </div>
 <!-- Third picture with overlay end. -->
@@ -141,10 +144,10 @@
       <h2 id="projects" class="header scrollspy">Projects</h2>
 
 				<div class="row">
-			    <div class="col s12 m4 l4">
+			    <div class="col s12 m6 l4">
 			      <div class="card hoverable">
 			        <div class="card-image">
-			          <img src="img/proj1.png">
+			          <img class="responsive-img" src="img/proj1.png">
 			        </div>
 			        <div class="card-content">
 								<span class="card-title grey-text text-darken-3 lighten-3">PONG^2</span>
@@ -157,10 +160,10 @@
 			      </div>
 			  	</div>
 
-					<div class="col s12 m4 l4">
+					<div class="col s12 m6 l4">
 			      <div class="card hoverable">
 			        <div class="card-image">
-			          <img src="img/Gitman-RepoTracker.png">
+			          <img class="responsive-img" src="img/Gitman-RepoTracker.png">
 			        </div>
 			        <div class="card-content">
 								<span class="card-title grey-text text-darken-3 lighten-3">Gitman-RepoTracker</span>
@@ -174,10 +177,10 @@
 			      </div>
 			    </div>
 
-			    <div class="col s12 m4 l4">
+			    <div class="col s12 m6 l4">
 			      <div class="card hoverable">
 			        <div class="card-image">
-			          <img src="img/TourApp.png">
+			          <img class="responsive-img" src="img/TourApp.png">
 			        </div>
 			        <div class="card-content">
 								<span class="card-title grey-text text-darken-3 lighten-3">TourApp</span>
@@ -192,10 +195,10 @@
 			  </div>
 
 				<div class="row">
-			    <div class="col s12 m4 l4">
+			    <div class="col s12 m6 l4">
 			      <div class="card hoverable">
 			        <div class="card-image">
-			          <img src="img/PunchCard.png">
+			          <img class="responsive-img" src="img/PunchCard.png">
 			        </div>
 			        <div class="card-content">
 								<span class="card-title grey-text text-darken-3 lighten-3">Punch Card</span>
@@ -208,10 +211,10 @@
 			      </div>
 			    </div>
 
-					<div class="col s12 m4 l4">
+					<div class="col s12 m6 l4">
 			      <div class="card hoverable">
 			        <div class="card-image">
-			          <img src="img/Nedo.png">
+			          <img class="responsive-img" src="img/Nedo.png">
 			        </div>
 			        <div class="card-content">
 								<span class="card-title grey-text text-darken-3 lighten-3">Nedo</span>
@@ -252,22 +255,28 @@
 			 	<h6 class="grey-text text-lighten-4 h6font">Reach out, let's connect!</h6>
 		 	</div>
 		 	<div class="row">
-			 	<div class="col s4">
+			 	<div class="col s12 m6 l3">
 				 	<a class="grey-text text-lighten-3" href="https://github.com/carverme">
 						<i id="contactlogo" class="fab fa-github-square"></i>
 						carverme
 				 	</a>
 				</div>
-				<div class="col s4">
+				<div class="col s12 m6 l3">
 				 	<a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/mattecarver">
 					 	<i id="contactlogo" class="fab fa-linkedin"></i>
 						mattecarver
 				 	</a>
 				</div>
-				<div class="col s4">
-				 	<a class="grey-text text-lighten-3" href="#!">
+				<div class="col s12 m6 l3">
+				 	<a class="grey-text text-lighten-3" href="mailto:mattcarver.wd@gmail.com">
 					 	<i id="contactlogo" class="fas fa-envelope-square"></i>
 						mattcarver.wd@gmail.com
+				 	</a>
+				</div>
+				<div class="col s12 m6 l3">
+				 	<a class="grey-text text-lighten-3" href="img/resumepic.png">
+					 	<i id="contactlogo" class="fas fa-file-alt"></i>
+						Resume
 				 	</a>
 				</div>
 			</div>
