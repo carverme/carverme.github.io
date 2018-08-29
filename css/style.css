@@ -29,6 +29,12 @@ h1 {
   margin-bottom: 88px;
 }
 
+#portpic {
+  border-radius: 60%;
+  height: 275px;
+  width: 275px;
+}
+
 #namelogo {
   margin-left: .25em;
 }
